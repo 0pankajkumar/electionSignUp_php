@@ -1,2 +1,7 @@
+unique voter number
 name
+father's name
+photo
 dob
+sex
+address
