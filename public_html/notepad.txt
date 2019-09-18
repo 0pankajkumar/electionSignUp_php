@@ -1,0 +1,14 @@
+unique voter number
+name
+father's name
+photo
+dob
+sex
+address
+
+
+CREATE TABLE `id10912974_electiondata`.`electiontable` ( `voternumber` INT UNSIGNED NOT NULL , `name` VARCHAR(50) NOT NULL , `fathersname` VARCHAR(50) NOT NULL , `photo` MEDIUMBLOB NOT NULL , `dob` VARCHAR(50) NOT NULL , `sex` VARCHAR(20) NOT NULL , `address` VARCHAR(200) NOT NULL , PRIMARY KEY (`voternumber`)) ENGINE = InnoDB;
+
+ALTER TABLE `electiontable` CHANGE `voternumber` `voternumber` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `electiontable` CHANGE `photo` `photo` VARCHAR(50) NOT NULL;

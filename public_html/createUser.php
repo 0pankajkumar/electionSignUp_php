@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Sign Up</title>
   </head>
   <body>
 
@@ -64,7 +64,7 @@ body, html {
 
 .bg-img {
   /* The image used */
-  background-image: url("voters.jpg");
+  background-image: url("votersxx.jpg");
 
   min-height: 580px;
 
@@ -117,9 +117,80 @@ input[type=text]:focus, input[type=password]:focus {
 </head>
 <body>
 
-<h2>Form on Hero Image</h2>
+<h2>Get your Election card</h2>
 <div class="bg-img">
-  
+
+    <div style="width:50%";>
+    <form method="post" action="insertUser.php">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <!-- <label for="name">Name</label> -->
+              <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+            </div>
+            <div class="form-group col-md-6">
+              <!-- <label for="inputPassword4">Password</label> -->
+              <input type="text" class="form-control" id="fathersname" name="fathersname" placeholder="Father's name">
+            </div>
+          </div>
+
+          <fieldset class="form-group">
+            <div class="row">
+              <!-- <legend class="col-form-label col-sm-2 pt-0">Gender</legend> -->
+              <div >
+                <div class="form-check">
+                  <!-- <input class="form-check-input" type="radio" name="gridRadios" id="male" value="Male" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Male
+                  </label>
+
+                  <input class="form-check-input" type="radio" name="gridRadios" id="female" value="Female">
+                  <label class="form-check-label" for="gridRadios2">
+                    Female
+                  </label>
+
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="Other" disabled>
+                  <label class="form-check-label" for="gridRadios3">
+                    Other
+                  </label> -->
+
+                  <input type="radio" name="gender" value="male"> Male
+                  <input type="radio" name="gender" value="female"> Female
+                  <input type="radio" name="gender" value="other"> Other 
+
+                </div>
+                <div class="form-check">
+                  
+                </div>
+                <div class="form-check">
+                  
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            Date of Birth: <input type="date" class="form-control" name="dob" id="dob" placeholder="DoB">
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="inputAddress">Address</label> -->
+            <input type="text" class="form-control" id="address" name="address" placeholder="Full Address">
+          </div>
+
+          <div class="form-group">
+            Passport size photo: <input type="file" class="form-control" name="file" id="file" placeholder="photo">
+          </div>
+          
+         
+          
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>  
+
+    
+
+
+
 </div>
 
 
