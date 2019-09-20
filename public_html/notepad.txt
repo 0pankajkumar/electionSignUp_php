@@ -12,3 +12,6 @@ CREATE TABLE `id10912974_electiondata`.`electiontable` ( `voternumber` INT UNSIG
 ALTER TABLE `electiontable` CHANGE `voternumber` `voternumber` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE `electiontable` CHANGE `photo` `photo` VARCHAR(50) NOT NULL;
+
+form tutorial https://www.codexworld.com/upload-store-image-file-in-database-using-php-mysql/
+

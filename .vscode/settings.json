@@ -1,4 +1,9 @@
 {
+  "php.validate.enable": true,
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "php.validate.run": "onSave",
+
   "phpformatter.composer": true,
-  "phpformatter.arguments": ["--rules=@psr2"]
+  "phpformatter.arguments": ["--rules=@psr2"],
+  "prettier.arrowParens": "always"
 }
