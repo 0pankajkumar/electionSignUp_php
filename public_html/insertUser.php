@@ -1,63 +1,80 @@
 <html>
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/styles/createUserStyle.css"> 
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Sign Up</title>
+    <title>Sign Up
+    </title>
   </head>
-
-<body>
-
-
-
+  <body>
     <!-- Navigational -->
     <!--  -->
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
-  <a class="navbar-brand" href="#">Voter Council</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">Voter Council
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home 
+              <span class="sr-only">(current)
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.php">Register
+            </a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchText">
+          <button id="sendForTable">Search
+          </button>
+        </div>
+      </div>
+    </nav> -->
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/index.php">Register</a>
-      </li>
-     
+  <!-- Navigational 2 -->
+  <nav class="topnav">
+  <a class="active" href="/index.php">Home</a>
+  <a href="/index.php">Register</a>
+  <div class="search-container">
+    
+    	
+        <input type="text" placeholder="Search" aria-label="Search" id="searchText">
+      <button id="sendForTable">Search Name</button>
+        
+        
       
-    </ul>
-    <div class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchText">
-      <button id="sendForTable">Search</button>
-</div>
+   
   </div>
 </nav>
 
 
 
-<div id="searchResults">
-</div>
-
-
-
-<div id="tableDiv" style="display:none">
-</div> 
 
 
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="scripts/createUserScript.js"></script>
 
-</body>
+
+    <div id="searchResults">
+    </div>
+    <div id="tableDiv" style="display:none">
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="scripts/createUserScript.js">
+    </script>
+  </body>
 </html> 
 
 <?php

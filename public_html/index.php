@@ -23,7 +23,7 @@
 
     <!-- Navigational -->
     <!--  -->
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
   <a class="navbar-brand" href="#">Voter Council</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -45,12 +45,26 @@
       <button id="sendForTable">Search Name</button>
 </div>
   </div>
+</nav> -->
+
+
+
+
+<!-- Navigational 2 -->
+<nav class="topnav">
+  <a class="active" href="/index.php">Home</a>
+  <a href="/index.php">Register</a>
+  <div class="search-container">
+    
+    	
+        <input type="text" placeholder="Search" aria-label="Search" id="searchText">
+      <button id="sendForTable">Search Name</button>
+        
+        
+      
+   
+  </div>
 </nav>
-
-
-
-
-
 
 
 
@@ -63,7 +77,7 @@
 
 <div class="bg-img" id="signUpForm" style="display:block">
   
-    <div style="width:50%; background:whitesmoke; margin:auto";>
+    <div id="main-form" >
     <h2>Get your Election card</h2>
     <form method="post" action="insertUser.php" enctype="multipart/form-data">
           <div class="form-row">
